@@ -4,6 +4,10 @@ def world_cup():
     bicampeao = 'Argentina, Uruguai e França'
     campeao = 'Espanha e Inglaterra'
 
-    print(f"Só há uma nação pentacampeã mundial que é o {pentacampeao}, depois há 2 nações tetracampeãs sendo elas a {tetracampeao}. Não há nenhum tricampeão, mas tem 3 bicampeões sendo eles {bicampeao} e 2 nações que ganharam a Copa do Mundo apenas uma vez, sendo elas {campeao}")
+    print(f"Pentacampeões (1): {pentacampeao}")
+    print(f"Tetracampeões (2): {tetracampeao}")
+    print("Não há nenhum tricampeão!")
+    print(f"Bicampeões (3): {bicampeao}")
+    print(f"Campeões (2): {campeao}")
 
 world_cup()
